@@ -20,7 +20,7 @@ import javax.swing.JTextField;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.text.DefaultCaret;
 
-public class ZANTChatClient {
+public class ZishanChatClient {
 	JTextField outgoing;
 	JTextArea incoming;
 	JTextField nameField;
@@ -31,7 +31,7 @@ public class ZANTChatClient {
 	String name;
 	
 	public static void main(String[] args) {
-		ZANTChatClient client = new ZANTChatClient();
+		ZishanChatClient client = new ZishanChatClient();
 		client.start();
 	}
 	
@@ -82,7 +82,7 @@ public class ZANTChatClient {
 		frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
 		frame.getContentPane().add(BorderLayout.SOUTH, footer);
 	
-		frame.setSize(400, 500);
+		frame.setSize(580, 350);
 		frame.setVisible(true);
 	}
 	

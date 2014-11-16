@@ -12,13 +12,13 @@ import java.util.ListIterator;
 
 import javax.sound.midi.Receiver;
 
-public class ZANTChatServer {
+public class ZishanChatServer {
 	ArrayList<PrintWriter> clientOutputStreams;
 	HashMap<String, PrintWriter> map;
 	int noc;
 	
 	public static void main(String[] args) {
-		new ZANTChatServer().start();
+		new ZishanChatServer().start();
 	}
 	
 	public void start() {
